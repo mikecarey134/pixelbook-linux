@@ -1,4 +1,4 @@
-# NOTE: I am no longer using a Pixelbook, so will not be maintaining this. Someone should either fork it or let me know and if they want to be able to commit new changes/PRs - @flantel
+# NOTE: Everything working in 2022 only in ubuntu 19.10 with apt sources changed to old-releases repos 
 
 # Installing "real" linux on a Google Pixelbook
 
