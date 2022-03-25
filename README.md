@@ -1,5 +1,7 @@
 # NOTE: Everything working in 2022 only in ubuntu 19.10 with apt sources changed to old-releases repos 
 
+# Tested not working on Ubuntu 20.04, Ubuntu 21.10, Elementary OS 6.1, PopOS, Kubuntu 20.04, and, Debian 11
+
 # Installing "real" linux on a Google Pixelbook
 
 This repo documents the process of replacing ChromeOS on a stock [Google Pixelbook][pixelbook_product_page]
@@ -537,6 +539,16 @@ sudo rm -rf /opt/eve-linux-setup
 ```
 
 Do NOT remove `/opt/google` - it contains some files needed by the audio setup.
+
+
+
+Post Install Notes:
+Install Gnome-Tweaks for dark mode support
+Enable Fractional Scaling for better looking application scaling
+So far updating distro from 19.10 will cause an unsigned kernel error and break the install. 
+This will require reinstalling the whole os and appling these fixes again.
+The temporary workaround for limited apt sources is to use AppImages, Flatpaks, or, Snap installs
+
 
 
 
